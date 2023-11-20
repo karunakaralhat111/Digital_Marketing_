@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <!-- ==============================  Bootstrap link ===================== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <!-- ========================== Google Fonts ================= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <!-- ========================== font awesome ======================= -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- =========================== Aos Animation ====================== -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>DigiTech</title>
+</head>
+
+<body>
+    <div class="navigation">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">DigiTech</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fa-solid fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"  onclick="changeColor(this)">
+                            <a class="nav-link" aria-current="page" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item"  onclick="changeColor(this)">
+                            <a class="nav-link" href="#services">SERVICES</a>
+                        </li>
+                        <li class="nav-item"  onclick="changeColor(this)">
+                            <a class="nav-link" href="#about">ABOUT</a>
+                        </li>
+                        <li class="nav-item"  onclick="changeColor(this)">
+                            <a class="nav-link" href="#contact">CONTACT US</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- ==============================================  Hero Section ======================== -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/carousel-2.jpg" class="d-block w-100 img-fluid slideimg" alt="carousel1">
+                <div class="carousel-caption  d-block">
+                    <p>Best IT Solutions</p>
+                    <h1>An Innovative IT Solutions Agency</h1>
+                    <div class="desc-btn"><a href="#">Read more</a>
+                        <a href="#">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="images/carousel-4.jpg" class="d-block w-100 img-fluid slideimg" alt="carousel2">
+                <div class="carousel-caption  d-block">
+                    <p>Best IT Solutions</p>
+                    <h1 id="carousel-h1">Quality Digital Services You Really Need!</h1>
+                    <div class="desc-btn"><a href="#">Read more</a>
+                        <a href="#">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <i class=" fas fa-chevron-left" aria-hidden="true"></i>
+            <!-- <span class="visually-hidden">Previous</span> -->
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <i class=" fas fa-chevron-right" aria-hidden="true"></i>
+            <!-- <span class="visually-hidden">Next</span> -->
+        </button>
+    </div>
+    <!-- ==============================================   services ================================ -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="text-center" data-aos="fade-up">Our Services</h1>
+                    <p class="my-2" data-aos="fade-right">
+                        "Empower your brand with our comprehensive suite of digital
+                        marketing services designed to boost your online presence, engage
+                        your audience, and drive tangible results."
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-3" data-aos="fade-up">
+                    <div class="box">
+                        <div class="img-box">
+                            <img src="images/s1.png" alt="services1" />
+                        </div>
+                        <div class="detail-box">
+                            <h4>Link Building</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+                            <a href="#">
+                                <span>Read More</span>
+                                <i class="fa fa-long-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3" data-aos="fade-right">
+                    <div class="box">
+                        <div class="img-box">
+                            <img src="images/s2.png" alt="services1" />
+                        </div>
+                        <div class="detail-box">
+                            <h4>One Page SEO</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+                            <a href="#">
+                                <span>Read More</span>
+                                <i class="fa fa-long-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3" data-aos="fade-left">
+                    <div class="box">
+                        <div class="img-box">
+                            <img src="images/s3.png" alt="services1" />
+                        </div>
+                        <div class="detail-box">
+                            <h4>Online Marketing</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+                            <a href="#">
+                                <span>Read More</span>
+                                <i class="fa fa-long-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3" data-aos="fade-down">
+                    <div class="box">
+                        <div class="img-box">
+                            <img src="images/s4.png" alt="services1" />
+                        </div>
+                        <div class="detail-box">
+                            <h4>Email Marketing</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+                            <a href="#">
+                                <span>Read More</span>
+                                <i class="fa fa-long-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-4">
+                <div class="col-4"></div>
+                <div class="col-4 text-center">
+                    <button class="service-btn" data-aos="fade-up">View More</button>
+                </div>
+                <div class="col-4"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================   About Section ========================================== -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-center flex-wrap
+            ">
+                <div class="col-md-6">
+                    <div class="aboutsec-I">
+                        <h1>About Us</h1>
+                        <p>
+                            "we're passionate about driving your success through innovative
+                            digital strategies. With a dedicated team of experts, we craft
+                            tailored solutions to elevate your brand's online presence. Our
+                            commitment to delivering measurable results and staying ahead in
+                            the ever-evolving digital landscape defines us. Partner with us
+                            and let's achieve your marketing goals together."
+                        </p>
+                        <div class="about-btn m-5" data-aos="fade-up">
+                            <a href="#" > Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="aboutsec-II">
+                        <img src="images/about-img.png" class="img-fluid" alt="about-img" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================================== Contact Us ===================================== -->
+    <section class="Contact-section" id="contact">
+        <div class="container mt-5">
+            <h2 class="text-center" data-aos="fade-up">Contact Us</h2>
+            <form id="contactForm" name="Contactform" action="" method="post" data-aos="fade-up">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="Name" name="Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" name="Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" class="form-control" id="phone" name="PhoneNumber" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" name="Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+   
+    <!-- ============================================= Footer ============================================= -->
+    <footer class="footer ">
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class=" col-lg-3 col-md-6" data-aos="fade-up">
+                        <div class="footer_col">
+                            <div class="footer_heading">
+                                <h1>DigiTech</h1>
+                            </div>
+                            <div class="footer_col_menu">
+                                <p>Discover the secret to skyrocketing your brand's success with BookYourBrands. Our strategic prowess and cutting-edge solutions propel businesses towards unrivaled growth and limitless possibilities.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class=" col-lg-2 mx-auto col-md-6" data-aos="fade-down">
+                        <div class="footer_col">
+                            <div class="footer_heading">
+                                <h1>Links</h1>
+                            </div>
+                            <div class="footer_col_menu">
+                                <ul>
+                                    <li><a href="#carouselExampleFade">Home</a></li>
+                                    <li><a href="#services">Sevices</a></li>
+                                    <li><a href="#about">About</a></li>
+                                    <li><a href="#contact">ContactUs</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6" data-aos="fade-up">
+                        <div class="footer_col">
+                            <div class="footer_heading">
+                                <h1>Subscribe</h1>
+                            </div>
+                            <div class="footer_col_menu">
+                                <ul>
+                                    <li><input type="text" placeholder="Enter email"></li>
+                                    <li><a href="#" class="footer-btn">Subscribe</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-6" data-aos="fade-down">
+                        <div class="footer_col">
+                            <div class="footer_heading">
+                                <h1>Address</h1>
+                            </div>
+                            <div class="footer_col_menu">
+                                <ul>
+                                   <li><a href="#"><span><i class="fa-solid fa-location-dot"></i></span>Location</a></li>
+                                   <li><a href="#"><span><i class="fa-solid fa-phone"></i></span>Call + 123456789</a></li>
+                                   <li><a href="#"><span><i class="fa-solid fa-envelope"></i></span>degitech@gmail.com</a></li>
+                                   <li><a href="#"><span><i class="fa-brands fa-facebook"></i></span><span><i class="fa-brands fa-twitter"></i></span><span><i class="fa-brands fa-instagram"></i></span><span><i class="fa-brands fa-linkedin"></i></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="text-center footer_bottom">
+                            <p>Copyright © 2023 DigiTech.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- ================================ Botstrap bundle script ====================  -->
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+        <!-- ==================== Aos Animation js====================== -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
+</body>
+
+</html>

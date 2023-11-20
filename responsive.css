@@ -1,0 +1,237 @@
+@media screen and (max-width: 1200px) {
+  .desciption-container h1 {
+    font-size: 3.5rem;
+    padding: 5px 5px;
+  }
+  .desciption-container p {
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+  }
+  .desciption-container button {
+    width: 200px;
+    font-size: 1.7rem;
+    padding: 12px 32px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .desciption-container h1 {
+    font-size: 3.5rem;
+    padding: 5px 5px;
+  }
+  .desciption-container p {
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+  }
+  .desciption-container button {
+    width: 200px;
+    font-size: 1.7rem;
+    padding: 12px 32px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .carousel-item .slideimg {
+    height: 80vh;
+    opacity: 0.8;
+    object-fit: cover;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .carousel-caption h1{
+    font-weight: bold;
+    font-size: 38px;
+  }
+  .desciption-container h1 {
+    font-size: 2.5rem;
+    width: 100%;
+  }
+  .desciption-container button {
+    width: 200px;
+    font-size: 1.7rem;
+    padding: 12px;
+    width: 150px;
+  }
+  .aboutsec-I {
+    /* border: 1px solid #fff; */
+    padding: 3px 5px;
+  }
+  .aboutsec-I h1 {
+    text-align: right;
+  }
+  .aboutsec-II img {
+    width: 100%;
+    max-width: 320px;
+    height: 64vh;
+  }
+}
+@media screen and (max-width: 767px) {
+  .carousel-item .slideimg {
+    height: 65vh;
+    opacity: 0.8;
+    object-fit: cover;
+  }
+  .carousel-caption .desc-btn{
+    margin-top: 0px !important;
+  }
+  #carousel-h1{
+    font-size: 25px !important;
+  }
+  .carousel-caption h1{
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+
+
+  /* ================ About ==================== */
+  .about-section {
+    width: 100vw;
+    height: 134vh !important;
+    border-radius: 250px 0 250px 0;
+}
+  .about-section {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 250px 0 250px 0;
+  }
+  .aboutsec-I h1 {
+    text-align: center;
+    width: 100%;
+  }
+/* ============================= Foooter ============== */
+.footer_col{
+  color: #fff;
+  padding-top: 20px;
+  margin-top: 10px;
+  /* margin-left: 20px; */
+  /* border: 1px solid #fff; */
+}
+}
+@media screen and (max-width: 576px) {
+  .carousel-item .slideimg {
+    height: 70vh;
+    opacity: 0.8;
+    object-fit: cover;
+  }
+  .carousel-caption .desc-btn a{
+    padding: 10px 20px;
+  }
+  .fa-chevron-left {
+    font-size: 3rem;
+    margin-left: 4rem;
+    padding: 1rem;
+    transform: translateX(-2rem);
+  }
+  
+  .fa-chevron-right {
+    font-size: 3rem;
+    margin-right: 4rem;
+    padding: 1rem;
+    cursor: pointer;
+    position: absolute;  
+    transform: translateX(2rem);
+
+  }
+  
+  .desciption-container p {
+    padding: 4px;
+    font-size: 14px;
+  }
+  .desciption-container button {
+    padding: 10px;
+  }
+  /* ======================== About SEction  ============== */
+  .about-section {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 91px 0 250px 0;
+}
+/* ============================= Foooter ============== */
+.footer_col{
+  color: #fff;
+  padding-top: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+  /* border: 1px solid #fff; */
+}
+}
+@media screen and (max-width: 492px) {
+  /* ================================= Carousel ============================== */
+  .carousel-item .slideimg {
+    height: 60vh;
+    opacity: 0.8;
+    object-fit: cover;
+  }
+  .carousel-caption .desc-btn a{
+    padding: 8px 15px;
+    font-size: 14px;
+  }  
+  .desciption-container h1 {
+    font-size: 2.6rem;
+    text-align: center;
+    /* padding: 0px; */
+    width: 100%;
+  }
+  .about-section {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 96px 0px 281px 0px;
+}
+.aboutsec-II img {
+    width: 100%;
+    max-width: 310px;
+    height: 48vh;
+}
+.service-btn {
+    padding: 11px 20px;
+}
+
+}
+
+@media screen and (max-width: 410px) {
+  #carousel-h1{
+    font-size: 18px !important;
+  }
+  .carousel-caption h1{
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .carousel-caption .desc-btn a{
+    padding: 8px 15px;
+    font-size: 14px;
+    margin: 0px 3px;
+  }  
+  .service-btn {
+    padding: 10px 19px;
+}
+
+}
+@media screen and (max-width: 300px) {
+
+  .desciption-container h1 {
+    font-size: 1.5rem;
+    /* text-align:center; */
+    padding: 2.8px !important;
+    width: 100% !important;
+  }
+  .desciption-container p {
+    font-size: 11px;
+    width: 100% !important;
+    text-align: justify;
+  }
+  .desciption-container button {
+    padding: 8px;
+    font-size: 13px;
+  }
+ 
+}
